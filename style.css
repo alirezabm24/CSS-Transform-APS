@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: lightgrey;
+}
+
+.con-row1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.con-squ {
+  width: 200px;
+  height: 150px;
+  background-color: rgb(221, 221, 221);
+  box-shadow: 1px 1px 1px gray;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(187, 72, 187);
+  margin: 25px auto;
+  transition: all 1s;
+}
+
+.gray {
+  width: 100px;
+  height: 100px;
+  margin: 25px auto;
+  background-color: rgb(183, 183, 183);
+}
+
+#sq1:hover {
+  transform: scale(1.1, 1.1) rotate(45deg);
+  opacity: 0.5;
+}
+
+#sq2:hover {
+  transform: scale(1, 0.7);
+  opacity: 0.5;
+}
+
+#sq3:hover {
+  transform: scale(0.7, 1);
+  opacity: 0.5;
+}
+
+#sq4:hover {
+  transform: scale(2, 2);
+  opacity: 0.5;
+}
+
+#sq5:hover {
+  transform: scale(2, 1);
+  opacity: 0.5;
+}
+
+#sq6:hover {
+  transform: translate(50px, 0);
+  opacity: 0.5;
+}
+
+#sq7:hover {
+  transform: translate(50px, 25px);
+  opacity: 0.5;
+}
+
+#sq8:hover {
+  transform: skewY(45deg);
+  opacity: 0.5;
+}
+
+#sq9:hover {
+  transform: skew(45deg, 0deg);
+  opacity: 0.5;
+}
+
+#sq10:hover {
+  transform: scale(1, 2.5);
+  opacity: 0.5;
+}
+
+#sq11:hover {
+  transform: translate(0, 50px);
+  opacity: 0.5;
+}
+
+#sq12:hover {
+  transform: scale(1, 1.5) skew(0, 50deg);
+  opacity: 0.5;
+}
+
+.square13 {
+  perspective: 500px;
+}
+#sq13 {
+  transform-origin: 50% 50% 0;
+}
+#sq13:hover {
+  transform: rotateY(75deg) scaleX(2);
+  opacity: 0.5;
+}
+
+.square14 {
+  perspective: 100px;
+}
+#sq14 {
+  transform-origin: 50% 50% 0;
+}
+#sq14:hover {
+  transform: rotateX(50deg);
+  transform-origin: 50% 50% 0;
+  opacity: 0.5;
+}
+
+#sq15 {
+  transform-origin: top right;
+}
+#sq15:hover {
+  transform: rotate(45deg);
+  opacity: 0.5;
+}
+
+#sq16 {
+  transform-origin: bottom left 0;
+}
+#sq16:hover {
+  transform: rotate(45deg);
+  opacity: 0.5;
+}
+
+.square17 {
+  perspective: 100px;
+}
+#sq17 {
+  transform-origin: 50% 100% 0;
+}
+#sq17:hover {
+  transform: rotateX(45deg);
+
+  opacity: 0.5;
+}
+
+.square18 {
+  perspective: 200px;
+}
+#sq18 {
+  transform-origin: 100% 0 0;
+}
+#sq18:hover {
+  transform: rotateX(45deg);
+  opacity: 0.5;
+}
+
+.square19 {
+  perspective: 100px;
+}
+#sq19 {
+  transform-origin: 0% 50% 0px;
+}
+#sq19:hover {
+  transform: rotateY(30deg);
+  opacity: 0.5;
+}
+
+#sq20 {
+  transform-origin: left;
+}
+#sq20:hover {
+  transform: scaleX(2);
+  opacity: 0.5;
+}
+
+#sq21 {
+  transform-origin: right;
+}
+#sq21:hover {
+  transform: scaleX(2);
+  opacity: 0.5;
+}
+
+#sq22 {
+  transform-origin: bottom left 0;
+}
+#sq22:hover {
+  transform: scale(2, 2);
+  opacity: 0.5;
+}
+
+#sq23 {
+  transform-origin: top right 0;
+}
+#sq23:hover {
+  transform: scale(2, 2);
+  opacity: 0.5;
+}
+
+.square24 {
+  perspective: 500px;
+}
+#sq24 {
+  transform-origin: 100px 0 0;
+}
+#sq24:hover {
+  transform: rotateY(45deg);
+  opacity: 0.5;
+}
+
+#sq25 {
+  transform-origin: top;
+}
+#sq25:hover {
+  transform: scaleY(2);
+  opacity: 0.5;
+}
+
+#sq26 {
+  transform-origin: bottom;
+}
+#sq26:hover {
+  transform: scaleY(2);
+  opacity: 0.5;
+}
